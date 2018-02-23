@@ -134,9 +134,9 @@
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
 
-    <!--Citrus-CAF Version-->
-    <string name="citrus_version">Citrus-CAF Version</string>
-    <string name="citrus_version_summary">%s</string>
+    <!--UsoroOS Version-->
+    <string name="usoro_version">UsoroOS Version</string>
+    <string name="usoro_version_summary">%s</string>
 
     <!-- About phone screen,  device maintainer name -->
     <string name="device_maintainer">Device maintainer</string>

@@ -29,6 +29,11 @@
                     android:targetClass="com.citrus.aboutcitrus.MainActivity" />
         </PreferenceScreen>
 
+        <!-- KompotOS logo -->
+         <PreferenceScreen android:key="kompot_logo"
+                 android:enabled="false"
+                 android:layout="@layout/kompot_about_logo" />
+
         <!-- Changelog -->
         <PreferenceScreen android:key="changelog"
                 android:title="@string/changelog_custom_title"
@@ -96,11 +101,11 @@
                 android:title="@string/caf_branch"
                 android:summary="@string/caf_branch_summary" />
 
-        <!-- Citrus-CAF version -->
-        <Preference android:key="citrus_version"
+        <!-- UsoroOS version -->
+        <Preference android:key="usoro_version"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/citrus_version"
-                android:summary="@string/citrus_version_summary" />
+                android:title="@string/usoro_version"
+                android:summary="@string/usoro_version_summary" />
 
         <!-- Device Maintainer -->
         <Preference android:key="device_maintainer"
